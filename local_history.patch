@@ -1,0 +1,16 @@
+Index: src/leveledmobs/LeveledWither.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/leveledmobs/LeveledWither.java	(date 1595530852986)
++++ src/leveledmobs/LeveledWither.java	(date 1595530852986)
+@@ -75,7 +75,7 @@
+         this.targetSelector.a(2, new PathfinderGoalNearestAttackableTarget<EntityLiving>(this,EntityLiving.class,1,true,true,this::isANotLeveledMob));
+ 
+         this.getWorld().addEntity(this);
+-        BukkitTask task = new RaidBoss.BossBarChecker(this).runTaskTimer(plugin,0,60);
++        BukkitTask task = new RaidBoss.BossBarChecker(this).runTaskTimer(plugin,0,40);
+     }
+ 
+     @Override

@@ -1,0 +1,106 @@
+name: MMOPlugin
+main: minecraft.mmoplugin.MainClass
+version: 0.0.9
+description: An MMORPG Plugin for Minecraft
+api-version: 1.13
+author: Yoshiane
+depend: [ProtocolLib]
+load: POSTWORLD
+commands:
+  class:
+    usage:
+    description: Allows the player to select their class.
+  stats:
+    usage:
+    description: See your stats.
+  spider:
+    usage:
+    description: spawn a leveled spider.
+  mobspawn:
+    usage:
+    description: spawn random mobs at given range level and given location parameters.
+  createnpc:
+    usage:
+    description: Spawn an NPC at your current location.
+  setlvl:
+    usage:
+    description: Set the players level.
+  removenpc:
+    usage:
+    description: Remove the NPC that is standing on the block that you're standing on.
+  target:
+    usage:
+    description: Learn the current target of your Summon.
+  heal:
+    usage:
+    description: Fully heal the player.
+  faction:
+    usage:
+    description: Create/Delete factions.
+  join:
+    usage:
+    description: Join a player's dungeon.
+  dungeon:
+      usage: </command> [spawn/remove] [mobType] [level]
+      description: if trying to spawn, please give the mobType and level. MobTypes are, hoglin,stray,piglin,witherskeleton,magmacube.
+  fireball:
+    usage:
+    description: spawn a fireball
+  setspawn:
+    usage:
+    description: Set the dungeon's spawn.
+  circle:
+    usage:
+    description: Spawn a circle particle!
+  takas:
+    usage:
+    description: Trading!
+  addmoney:
+    usage:
+    description: For development purposes.
+  epicaxe:
+    usage:
+    description: For development purposes.
+  rareaxe:
+    usage:
+    description: For development purposes.
+  currentdungeon:
+    usage:
+    description: For development purposes.
+  removedungeon:
+    usage:
+    description: For development purposes.
+  showrolls:
+    usage:
+    description: For development purposes.
+  getattributes:
+    usage:
+    description: For development purposes.
+  yoshiramaru:
+    usage:
+    description: Give yourself the legendary sword, Yoshiramaru.
+  crimsonrage:
+    usage:
+    description: Give yourself the legendary axe, Crimson Rage.
+  engintutku:
+    usage:
+    description: Give yourself the legendary weapon, Engin Tutku.
+  checkarmor:
+    usage:
+    description: Check your current armor, for development purposes.
+  openworld:
+    usage:
+    description: Control open world mob spawns.
+  checkspawns:
+    usage:
+    description: For development purposes only.
+  lobi:
+    usage:
+    description: Teleport to lobby.
+    alias: lobby
+  resetcooldown:
+    usage:
+    description: Reset your dungeon cooldowns.
+  removeall:
+    usage:
+    description: Testing
